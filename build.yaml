@@ -26,11 +26,11 @@ include:
   - board: xiao_ble//zmk
     shield: totem_right
   # Dongle (nice!nano v2 acts as central/USB host)
-  - board: nice_nano_v2//zmk
+  - board: nice_nano//zmk
     shield: totem_central dongle_display
     snippet: studio-rpc-usb-uart
     artifact-name: totem_central
   # Settings reset firmware (for dongle)
-  - board: nice_nano_v2//zmk
+  - board: nice_nano//zmk
     shield: settings_reset
     artifact-name: nice_nano_v2_settings_reset
